@@ -10,13 +10,15 @@ Built using LangChain, HuggingFace embeddings, and ChromaDB, it demonstrates how
 
 ## Steps to run the program
 
-1) Install all dependencies
+1) Cretae Virtual Environment for the project
+
+2) Install all dependencies
    To install all dependencies run 
    >pip install -r requirements.txt
 
    in your console
 
-2) Install and Run Ollama
+3) Install and Run Ollama
    
    Download Olamma from [Ollama Website](https://ollama.com/download)
 
@@ -29,7 +31,7 @@ Built using LangChain, HuggingFace embeddings, and ChromaDB, it demonstrates how
    You can also use llama2 or llama3 instead of mistral
 
 
-3) Launch the Streamlit App
+4) Launch the Streamlit App
 
     >streamlit run app.py
 
